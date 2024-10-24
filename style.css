@@ -55,7 +55,7 @@ button {
   margin-left: 25px;
   margin-top: 80px;
   font-weight: bold;
-  transition: 0.7ms;
+  transition: 0.7s;
    }
 
 .button1:hover {
