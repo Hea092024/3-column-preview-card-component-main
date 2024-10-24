@@ -41,6 +41,7 @@ body {
 
 img {
   width: 50%;
+  margin: 15px;
 }
 
 button {
@@ -49,5 +50,12 @@ button {
   width: 125px;
   position: absolute;
   bottom: 25%;
+  cursor: pointer;
 }
 
+p{
+
+    margin: 30px;
+    font-size: 20px;
+    
+}
