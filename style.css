@@ -55,10 +55,21 @@ button {
   margin-left: 25px;
   margin-top: 80px;
   font-weight: bold;
-  
-  
+  transition: 0.7ms;
+   }
+
+.button1:hover {
+  background-color: orange; 
 }
 
+.button2:hover{
+    background-color: lightgreen;
+}
+
+.button3:hover {
+    background-color: green;
+}
+  
 p{
 
     margin: 30px;
