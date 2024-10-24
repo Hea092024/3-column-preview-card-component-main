@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+ font-size: 15px;
 }
 
 body {
@@ -40,22 +41,38 @@ body {
 }
 
 img {
-  width: 50%;
-  margin: 15px;
+width: 60px;
+max-width: 100%;
+  
 }
 
 button {
-  height: 48px;
+  height: 40px;
   border-radius: 30px;
+  border: 2px solid white;
   width: 125px;
-  position: absolute;
-  bottom: 25%;
   cursor: pointer;
+  margin-left: 25px;
+  margin-top: 80px;
+  font-weight: bold;
+  
+  
 }
 
 p{
 
     margin: 30px;
     font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+    letter-spacing: 1px;
     
+}
+
+.design{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 30px;
+    height: auto;
+    margin: 30px;
+    
+
 }
