@@ -1,18 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
   display: flex;
-  
+  height: 100svh;
+
+  align-items: center;
+  justify-content: center;
 }
 .cards {
   display: flex;
   border: solid 1px;
   flex-direction: column;
   padding: 20px;
-
+  width: 300px;
+  height: 60%;
 }
 
 #sedan {
@@ -34,3 +38,16 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+img {
+  width: 50%;
+}
+
+button {
+  height: 48px;
+  border-radius: 30px;
+  width: 125px;
+  position: absolute;
+  bottom: 25%;
+}
+
