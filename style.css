@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
- font-size: 14px;
+ 
 }
 
 body {
@@ -21,7 +21,7 @@ body, button{
 .cards {
   display: flex;
   height: 400px;
-  width: 250px;
+  width: 200px;
   flex-direction: column;
   justify-content: space-between;
   padding: 50px;
@@ -30,13 +30,15 @@ body, button{
 }
 
 .title{
-  color: hsla(0, 0%, 100%, 0.75);
-  font-size: 30px;
+  color: hsl(0, 0%, 95%);
+  font-size: 40px;
 }
 
 #sedan {
   background-color: hsl(31, 77%, 52%);
-border-radius: 25px 0 0 25px;
+border-radius: 10px 0 0 10px;
+
+
 }
 
 #suv {
@@ -46,7 +48,8 @@ border-radius: 25px 0 0 25px;
 
 #lux {
   background-color: hsl(179, 100%, 13%);
-  border-radius: 0 25px 25px 0;
+  border-radius: 0 10px 10px 0;
+
 }
 
 .attribution {
@@ -58,16 +61,16 @@ border-radius: 25px 0 0 25px;
 }
 
 img {
-width: 80px;
+width: 60px;
 max-width: 100%;
   
 }
 
 button {
-  height: 40px;
+  height: 45px;
   border-radius: 30px;
   border: 2px solid white;
-  width: 125px;
+  width: 135px;
   cursor: pointer;
   font-weight: bold;
   transition: 0.25s;
@@ -116,23 +119,14 @@ button {
 p{
 
   font-family: "Lexend Deca", serif;
-  font-optical-sizing: auto;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
+  line-height: 20px;
 
 color: hsla(0, 0%, 100%, 0.75);
   min-height: 200px;
-    font-size: 20px;
-    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 18px;
     letter-spacing: 1px;
     
-}
-
-.design{
-    color: hsla(0, 0%, 100%, 0.75);
-    font-size: 38px;
-    height: auto;
-    
-    
-
 }
